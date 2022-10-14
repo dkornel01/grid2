@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    color: white;
+}
+.menu{
+    grid-template-columns:  repeat(6,1fr);
+    display: grid;
+}
+#torzs{
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    max-width: 800px;
+    display: grid;
+    gap: 100px ;
+    margin: auto;
+}
+.paragrafusok_spec{
+    border-right: 5px red ridge;
+    border-left: 5px red ridge;
+}
+
+@media only screen and (max-width: 400px) {
+    #torzs{ grid-template-columns: 1fr;
+        display: grid;
+    }
+    
+}
+h2{
+    text-align: center;
+}
+img{
+    height: 100px;
+    width: 100px;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 32pt;
+}
+.oszlop{
+    grid-template-columns: 1fr 1fr;
+}
+.sor{
+    grid-template-rows: 1fr 1fr;
+}
+.folyamatabra{
+    width: 400px;
+    height: 400px;
+}
